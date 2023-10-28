@@ -1,0 +1,23 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+.bodyPadding {
+	background-color: darkgrey;
+	padding: 0 3rem;
+}
+
+.myNav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.myNavGroup {
+	display: flex;
+	flex-direction: row;
+}
+
+.myNavGroup > div {
+	padding: 1rem 0.25rem;
+}
