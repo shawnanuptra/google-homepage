@@ -5,9 +5,12 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 }
 .bodyPadding {
-	padding: 0 3rem;
+	padding: 0 1rem;
 }
 
+/* ****************************************************************** */
+
+/* NAVBAR */
 .myNav {
 	display: flex;
 	flex-direction: row;
@@ -18,10 +21,13 @@ body {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
+	gap: 0.8rem;
+	color: #fff;
+	font-size: 13px;
 }
 
 .myNavGroup > div {
-	padding: 1rem 0.25rem;
+	padding: 0.8rem 0.25rem;
 }
 
 /* First of myNavGroup has a greyish colour, while the 2nd one is white */
@@ -30,17 +36,76 @@ body {
 	font-size: 14px;
 }
 
-.myNavGroup {
-	color: #fff;
-	font-size: 13px;
+/* Gmail and Images navlinks */
+.rightNavLinks {
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
 }
-
 /* Hover over navlink adds underline and change cursor to pointer */
 .navLink:hover {
 	text-decoration: underline;
 	cursor: pointer;
 }
 
+.rightNavIcons {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 1rem;
+}
+
+.gridIconWrapper:hover {
+	cursor: pointer;
+}
+
+.gridIconWrapper {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.gridIconCircle {
+	position: absolute;
+	height: 42px;
+	width: 42px;
+	border-radius: 100%;
+	background-color: rgba(255, 255, 255, 0.1);
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	opacity: 0;
+}
+
+.gridIconCircle:hover {
+	opacity: 1;
+}
+
 .gridIcon {
 	height: 24px;
+	display: flex;
 }
+
+.avatarWrapper {
+	height: 40px;
+	width: 40px;
+}
+
+.avatar {
+	height: inherit;
+	width: inherit;
+	background-color: #33691e;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.avatar > p {
+	font-size: 1.1rem;
+	line-height: 0;
+	color: white;
+}
+
+/* **************************************************************** */
