@@ -224,6 +224,25 @@ body {
 	border: 1px solid #5f6368;
 }
 
+textarea {
+	border: none;
+	overflow: auto;
+	outline: none;
+
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+
+	resize: none;
+	background-color: transparent;
+
+	font-size: 1rem;
+	font-family: inherit;
+	color: #e8eaed;
+	display: flex;
+	align-items: center;
+}
+
 /* **************************************************************** */
 /* SPACING */
 .spacing {
