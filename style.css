@@ -174,8 +174,12 @@ body {
 
 .search:hover {
 	background-color: #303134;
-	cursor: text;
-	border: 1px solid #303134;
+	border: 1px solid transparent;
+}
+
+.textAreaActive {
+	background-color: #303134;
+	border: 1px solid transparent;
 }
 
 .searchIconWrapper {
@@ -192,6 +196,10 @@ body {
 	width: 24px;
 	fill: #93999e;
 	margin: 0 0.45rem;
+}
+
+.rightSearchIconWrapper:hover {
+	cursor: pointer;
 }
 
 .searchIconWrapper > svg {
