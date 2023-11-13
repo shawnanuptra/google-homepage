@@ -216,7 +216,7 @@ body {
 	width: 100%;
 }
 
-.searchButtons > button {
+.searchButtons > input {
 	background-color: #303134;
 	box-shadow: 0 1px 3px rgba(23, 23, 23, 0.24);
 	border: 1px solid #303134;
@@ -227,7 +227,7 @@ body {
 	box-sizing: border-box;
 }
 
-.searchButtons > button:hover {
+.searchButtons > input:hover {
 	cursor: pointer;
 	border: 1px solid #5f6368;
 }
